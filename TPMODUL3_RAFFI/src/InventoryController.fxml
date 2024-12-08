@@ -1,0 +1,29 @@
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+    <children>
+        <TableView fx:id="tableView" layoutX="20.0" layoutY="20.0" prefHeight="200.0" prefWidth="460.0">
+            <columns>
+                <TableColumn fx:id="columnAlbumName" text="Album Name" prefWidth="100"/>
+                <TableColumn fx:id="columnArtist" text="Artist" prefWidth="100"/>
+                <TableColumn fx:id="columnAvailable" text="Available" prefWidth="100"/>
+                <TableColumn fx:id="columnTotal" text="Total" prefWidth="100"/>
+            </columns>
+        </TableView>
+
+        <Label layoutX="20.0" layoutY="240.0" text="Album Name:"/>
+        <TextField fx:id="textAlbumName" layoutX="120.0" layoutY="240.0" prefWidth="200.0"/>
+        
+        <Label layoutX="20.0" layoutY="280.0" text="Artist:"/>
+        <TextField fx:id="textArtist" layoutX="120.0" layoutY="280.0" prefWidth="200.0"/>
+
+        <Label layoutX="20.0" layoutY="320.0" text="Available:"/>
+        <TextField fx:id="textAvailable" layoutX="120.0" layoutY="320.0" prefWidth="200.0"/>
+
+        <Label layoutX="20.0" layoutY="360.0" text="Total:"/>
+        <TextField fx:id="textTotal" layoutX="120.0" layoutY="360.0" prefWidth="200.0"/>
+
+        <Button fx:id="btnAdd" layoutX="350.0" layoutY="240.0" text="Add"/>
+        <Button fx:id="btnUpdate" layoutX="350.0" layoutY="280.0" text="Update"/>
+        <Button fx:id="btnDelete" layoutX="350.0" layoutY="320.0" text="Delete"/>
+        <Button fx:id="btnRent" layoutX="350.0" layoutY="360.0" text="Rent Selected"/>
+    </children>
+</AnchorPane>

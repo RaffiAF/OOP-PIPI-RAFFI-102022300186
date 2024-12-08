@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         // To do: Buatlah sebuah Objek baru dari class Komputer
 
         // To do: Panggillah Method Informasi dari class Komputer

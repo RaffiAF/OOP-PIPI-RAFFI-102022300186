@@ -7,7 +7,17 @@ class KomputerVIP extends Komputer {
         super(jumlahKomputer, namaWarnet, hargaPerJam);
         this.vipCard = vipCard;
     }
-
+    @Override
+    public void informasi();
+    super.informasi();
+    if(vipCard){
+        System.out.println("Status\t Member VIP");
+        System.out.println("");
+    else{
+        System.out.println("Status \t Non VIP");
+        System.out.println("Beneft member VIP");
+    }
+    }
     // To do: Buatlah Method Informasi memakai Polymorphism Override dengan isi yang sesuai dengan ketentuan 
     // (boleh berbeda dengan output jurnal tetapi dengan cangkupan masih sesuai oleh materi modul!)
     
